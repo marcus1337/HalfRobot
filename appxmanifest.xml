@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+     xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities">
+<Identity Name="35856fullrune.HalfRobot"
+          Version="2.0.0.0"
+          Publisher="CN=6DD10D43-C129-4A84-BD17-F07288B24B4C"
+                ProcessorArchitecture="x86" />
+	<Properties>
+	  <DisplayName>Half Robot</DisplayName>
+	  <PublisherDisplayName>fullrune</PublisherDisplayName>
+	  <Logo>res\anicon50.png</Logo>
+	</Properties>
+	
+    <Resources>
+      <Resource Language="en-US" />
+    </Resources>
+	<Dependencies>
+	<TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14316.0" MaxVersionTested="10.0.15063.0" />
+		<PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.24217.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+	</Dependencies>
+      <Capabilities>
+        <rescap:Capability Name="runFullTrust"/>
+      </Capabilities>
+	  
+<Applications>
+
+  <Application Id="HalfRobot"     
+        Executable="HalfRobot.exe" EntryPoint="Windows.FullTrustApplication">
+		
+		<uap:VisualElements
+    BackgroundColor="#464646"
+    DisplayName="Half Robot"
+    Square150x150Logo="res\anicon150.png"
+    Square44x44Logo="res\anicon44.png"
+    Description="A platformer indie-game. Play as a half-robot, half-something hero and beat all the levels." />
+		
+   </Application>
+</Applications>
+
+
+
+
+  </Package>
