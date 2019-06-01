@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GAME">
+      <UniqueIdentifier>{2476c8c8-8c5b-425c-bb90-f62e69c48bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MODEL">
+      <UniqueIdentifier>{1fc5da66-07f7-4952-9fac-dd981aa003c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CONTROLLER">
+      <UniqueIdentifier>{f043042a-6491-43cc-9cad-05ab44d4f324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CONTROLLER">
+      <UniqueIdentifier>{6b5dde0c-ecaf-4686-a210-ef2eead29ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODEL">
+      <UniqueIdentifier>{de46b878-7cbd-4be8-adc3-cea4c1f2307d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODEL\inputs">
+      <UniqueIdentifier>{c735da57-2bd1-44f3-9a26-69f2f528753b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CONTROLLER\SOUND">
+      <UniqueIdentifier>{27309b38-fd7d-4536-a3a6-3035d55039da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODEL\GRAPHICS">
+      <UniqueIdentifier>{43fa9d84-65e6-4652-bcb4-c97c0bc1926c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODEL\ENTITY">
+      <UniqueIdentifier>{62d9dc27-2cc5-4a0d-9a9e-d5c91623d263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODEL\PHYSICS">
+      <UniqueIdentifier>{d45e1ec5-0921-408f-8243-d6e7c1ffea77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MODEL\ENTITY">
+      <UniqueIdentifier>{c6aaadf0-38cc-4eda-a6dd-69cc59ab2b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MODEL\GRAPHICS">
+      <UniqueIdentifier>{672c6888-a4e6-45a9-a1a0-8731acda04f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MODEL\INPUT">
+      <UniqueIdentifier>{06ca689c-7258-4b7a-8e41-d8c622dba78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MODEL\INPUT\playerinputstates">
+      <UniqueIdentifier>{576b39de-b040-4297-95e6-73ebca6d3451}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\CONTROLLER</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\CONTROLLER</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\CONTROLLER</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\CONTROLLER</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\MODEL</Filter>
+    </ClCompile>
+    <ClCompile Include="AIInput.cpp">
+      <Filter>Source Files\MODEL\inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInput.cpp">
+      <Filter>Source Files\MODEL\inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="StillState.cpp">
+      <Filter>Source Files\MODEL\inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="WalkState.cpp">
+      <Filter>Source Files\MODEL\inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpState.cpp">
+      <Filter>Source Files\MODEL\inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\CONTROLLER</Filter>
+    </ClCompile>
+    <ClCompile Include="LadderState.cpp">
+      <Filter>Source Files\MODEL\inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundLocator.cpp">
+      <Filter>Source Files\CONTROLLER</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsPlayer.cpp">
+      <Filter>Source Files\MODEL\GRAPHICS</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\MODEL\GRAPHICS</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\MODEL\ENTITY</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletEntity.cpp">
+      <Filter>Source Files\MODEL\ENTITY</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files\MODEL\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeHandler.cpp">
+      <Filter>Source Files\MODEL\GRAPHICS</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsBullet.cpp">
+      <Filter>Source Files\MODEL\GRAPHICS</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsPlayer.cpp">
+      <Filter>Source Files\MODEL\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletInput.cpp">
+      <Filter>Source Files\MODEL\inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBullet.cpp">
+      <Filter>Source Files\MODEL\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsAI.cpp">
+      <Filter>Source Files\MODEL\GRAPHICS</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsAI.cpp">
+      <Filter>Source Files\MODEL\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="HurtState.cpp">
+      <Filter>Source Files\MODEL\inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsAI2.cpp">
+      <Filter>Source Files\MODEL\GRAPHICS</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpMenu.cpp">
+      <Filter>Source Files\CONTROLLER</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBot.cpp">
+      <Filter>Source Files\MODEL\PHYSICS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameActivity.h">
+      <Filter>Header Files\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="StillState.h">
+      <Filter>Header Files\MODEL\INPUT\playerinputstates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInput.h">
+      <Filter>Header Files\MODEL\INPUT\playerinputstates</Filter>
+    </ClInclude>
+    <ClInclude Include="InputState.h">
+      <Filter>Header Files\MODEL\INPUT\playerinputstates</Filter>
+    </ClInclude>
+    <ClInclude Include="WalkState.h">
+      <Filter>Header Files\MODEL\INPUT\playerinputstates</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityInput.h">
+      <Filter>Header Files\MODEL\INPUT\playerinputstates</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpState.h">
+      <Filter>Header Files\MODEL\INPUT\playerinputstates</Filter>
+    </ClInclude>
+    <ClInclude Include="Kartbit.h">
+      <Filter>Header Files\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="LadderState.h">
+      <Filter>Header Files\MODEL\INPUT\playerinputstates</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMap.h">
+      <Filter>Header Files\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Header Files\CONTROLLER\SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\CONTROLLER\SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundLocator.h">
+      <Filter>Header Files\CONTROLLER\SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="NullAudio.h">
+      <Filter>Header Files\CONTROLLER\SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletEntity.h">
+      <Filter>Header Files\MODEL\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\MODEL\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsPlayer.h">
+      <Filter>Header Files\MODEL\GRAPHICS</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\MODEL\GRAPHICS</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletInput.h">
+      <Filter>Header Files\MODEL\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="AIInput.h">
+      <Filter>Header Files\MODEL\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeHandler.h">
+      <Filter>Header Files\MODEL\GRAPHICS</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsBullet.h">
+      <Filter>Header Files\MODEL\GRAPHICS</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsPlayer.h">
+      <Filter>Header Files\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBullet.h">
+      <Filter>Header Files\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsAI.h">
+      <Filter>Header Files\MODEL\GRAPHICS</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsAI.h">
+      <Filter>Header Files\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="HurtState.h">
+      <Filter>Header Files\MODEL\INPUT\playerinputstates</Filter>
+    </ClInclude>
+    <ClInclude Include="BotEntity.h">
+      <Filter>Header Files\MODEL\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaBot.h">
+      <Filter>Header Files\MODEL\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenu.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEntity.h">
+      <Filter>Header Files\MODEL\ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="HP_Bar.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeFuncs.h">
+      <Filter>Header Files\MODEL\GRAPHICS</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSave.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="IOStuff.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="LivesBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsAI2.h">
+      <Filter>Header Files\MODEL\GRAPHICS</Filter>
+    </ClInclude>
+    <ClInclude Include="Toast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMenu.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpMenu.h">
+      <Filter>Header Files\CONTROLLER</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBot.h">
+      <Filter>Header Files\MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundID.h">
+      <Filter>Header Files\CONTROLLER\SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bossinput.lua">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="easybotInput.lua">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bossInput2.lua">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bossInput3.lua">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bossInput4.lua">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Half Robot.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\anicon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

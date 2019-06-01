@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (MegaGame.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  PhysicsPlayer.cpp
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\shapefuncs.h(61): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\graphics.h(36): warning C4244: 'initializing': conversion from '__int64' to 'std::size_t', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\world.h(87): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\world.h(93): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\world.h(114): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\world.h(120): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Half Robot.vcxproj -> C:\Users\Marcus\Documents\Visual Studio 2015\Projects\MegaGame\Debug\Half Robot.exe
+  Half Robot.vcxproj -> C:\Users\Marcus\Documents\Visual Studio 2015\Projects\MegaGame\Debug\Half Robot.pdb (Partial PDB)

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B975DBE3-B3E0-435E-868D-E605C491B699}</ProjectGuid>
+    <RootNamespace>MegaGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectName>Half Robot</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Marcus\Documents\Visual Studio 2015\stuff\cereal-1.2.2\include;C:\Users\Marcus\Documents\Visual Studio 2015\stuff\SDL2-2.0.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Marcus\Documents\Visual Studio 2015\stuff\SDL2-2.0.5\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Marcus\Documents\Visual Studio 2015\stuff\LUA\5.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;lua5.3.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Marcus\Documents\Visual Studio 2015\stuff\LUA\5.3\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Marcus\Documents\Visual Studio 2015\stuff\SDL2-2.0.5\include;C:\Users\Marcus\Documents\Visual Studio 2015\stuff\LUA\5.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;lua5.3.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Marcus\Documents\Visual Studio 2015\stuff\SDL2-2.0.5\lib\x86;C:\Users\Marcus\Documents\Visual Studio 2015\stuff\LUA\5.3\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AIInput.cpp" />
+    <ClCompile Include="BulletEntity.cpp" />
+    <ClCompile Include="BulletInput.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="GraphicsAI.cpp" />
+    <ClCompile Include="GraphicsAI2.cpp" />
+    <ClCompile Include="GraphicsBullet.cpp" />
+    <ClCompile Include="GraphicsPlayer.cpp" />
+    <ClCompile Include="HelpMenu.cpp" />
+    <ClCompile Include="HurtState.cpp" />
+    <ClCompile Include="JumpState.cpp" />
+    <ClCompile Include="LadderState.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="PhysicsAI.cpp" />
+    <ClCompile Include="PhysicsBot.cpp" />
+    <ClCompile Include="PhysicsBullet.cpp" />
+    <ClCompile Include="PhysicsPlayer.cpp" />
+    <ClCompile Include="PlayerInput.cpp" />
+    <ClCompile Include="ShapeHandler.cpp" />
+    <ClCompile Include="SoundLocator.cpp" />
+    <ClCompile Include="StillState.cpp" />
+    <ClCompile Include="WalkState.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIInput.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="BotEntity.h" />
+    <ClInclude Include="BulletEntity.h" />
+    <ClInclude Include="BulletInput.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityInput.h" />
+    <ClInclude Include="GameActivity.h" />
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="GameSave.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="GraphicsAI.h" />
+    <ClInclude Include="GraphicsAI2.h" />
+    <ClInclude Include="GraphicsBullet.h" />
+    <ClInclude Include="HelpMenu.h" />
+    <ClInclude Include="HP_Bar.h" />
+    <ClInclude Include="HurtState.h" />
+    <ClInclude Include="InputState.h" />
+    <ClInclude Include="IOStuff.h" />
+    <ClInclude Include="JumpState.h" />
+    <ClInclude Include="Kartbit.h" />
+    <ClInclude Include="LadderState.h" />
+    <ClInclude Include="LivesBar.h" />
+    <ClInclude Include="LuaBot.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MenuState.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="NullAudio.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="GraphicsPlayer.h" />
+    <ClInclude Include="PhysicsAI.h" />
+    <ClInclude Include="PhysicsBot.h" />
+    <ClInclude Include="PhysicsBullet.h" />
+    <ClInclude Include="PhysicsPlayer.h" />
+    <ClInclude Include="PlayerEntity.h" />
+    <ClInclude Include="PlayerInput.h" />
+    <ClInclude Include="resource2.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="ShapeFuncs.h" />
+    <ClInclude Include="ShapeHandler.h" />
+    <ClInclude Include="SoundID.h" />
+    <ClInclude Include="SoundLocator.h" />
+    <ClInclude Include="SoundPlayer.h" />
+    <ClInclude Include="StartMenu.h" />
+    <ClInclude Include="StillState.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Toast.h" />
+    <ClInclude Include="WalkState.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="WinMenu.h" />
+    <ClInclude Include="World.h" />
+    <ClInclude Include="WorldMap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bossinput.lua" />
+    <None Include="bossInput2.lua" />
+    <None Include="bossInput3.lua" />
+    <None Include="bossInput4.lua" />
+    <None Include="easybotInput.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Half Robot.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\anicon2.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

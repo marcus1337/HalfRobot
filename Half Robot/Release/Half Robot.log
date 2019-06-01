@@ -1,0 +1,47 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (MegaGame.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  HelpMenu.cpp
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\ShapeFuncs.h(61): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+HelpMenu.cpp(47): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+HelpMenu.cpp(48): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  MainMenu.cpp
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\ShapeFuncs.h(61): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+MainMenu.cpp(126): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+MainMenu.cpp(128): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+MainMenu.cpp(129): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+MainMenu.cpp(137): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+MainMenu.cpp(138): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+MainMenu.cpp(140): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+MainMenu.cpp(143): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+MainMenu.cpp(152): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+MainMenu.cpp(159): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+MainMenu.cpp(161): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Menu.cpp
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\ShapeFuncs.h(61): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\Graphics.h(36): warning C4244: 'initializing': conversion from '__int64' to 'std::size_t', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\World.h(87): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\World.h(93): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\World.h(114): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\World.h(120): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\StartMenu.h(104): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\StartMenu.h(105): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\HP_Bar.h(26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\HP_Bar.h(30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\WinMenu.h(90): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\WinMenu.h(91): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\GameActivity.h(61): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\GameActivity.h(62): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\GameActivity.h(235): warning C4244: 'initializing': conversion from '__int64' to 'std::size_t', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\GameActivity.h(262): warning C4244: 'initializing': conversion from '__int64' to 'std::size_t', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\GameActivity.h(274): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\GameActivity.h(302): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\GameActivity.h(320): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Window.cpp
+  main.cpp
+c:\users\marcus\documents\visual studio 2015\projects\megagame\half robot\ShapeFuncs.h(61): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+  Generating code
+  33 of 998 functions ( 3.3%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    97 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Half Robot.vcxproj -> C:\Users\Marcus\Documents\Visual Studio 2015\Projects\MegaGame\Release\Half Robot.exe
+  Half Robot.vcxproj -> C:\Users\Marcus\Documents\Visual Studio 2015\Projects\MegaGame\Release\Half Robot.pdb (Full PDB)
